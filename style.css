@@ -5,11 +5,12 @@ body {
     font-size: 16px;
     font-weight: normal;
     background: #f1f1f1;
-    color: #0f141e
+    color: #0f141e;
 }
 
 h1 {
     color: darkslategrey;
+    font-style: normal;
 }
 
 h2 {
@@ -25,10 +26,29 @@ ul {
     font-size: 18px;
 }
 
-.info-text p {
+.conteiner {
+    max-width: 750px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.info {
+    margin-bottom: 20px;
+}
+
+.info-text {
     font-style: italic;
     font-weight: bold;
     color: #86898f;
+    margin: 0;
+}
+
+.info-text h4 {
+    margin-bottom: 10px;
+}
+
+.info-text p {
+    font-size: 14px;
 }
 
 .card {
@@ -36,7 +56,12 @@ ul {
     margin-top: 5px;
     /*border: 1px solid black;*/
     border-radius: 10px;
-    padding: 5px;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+}
+
+.card h2 {
+    margin-bottom: 10px;
 }
 
 .bg-yellow {
@@ -49,4 +74,10 @@ ul {
 
 .bg-green {
     background-color: #e5ffe7;
+}
+
+.photo {
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.55);
+    width: 170px;
+    border-radius: 28px;
 }

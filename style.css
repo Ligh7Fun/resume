@@ -30,3 +30,23 @@ ul {
     font-weight: bold;
     color: #86898f;
 }
+
+.card {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    /*border: 1px solid black;*/
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.bg-yellow {
+    background-color: #fff0dc;
+}
+
+.bg-red {
+    background-color: #ffe5e5;
+}
+
+.bg-green {
+    background-color: #e5ffe7;
+}

@@ -19,7 +19,7 @@ h2 {
 }
 
 p {
-    font-size: 16px;
+    font-size: 18px;
 }
 
 ul {
@@ -65,19 +65,56 @@ ul {
 }
 
 .bg-yellow {
-    background-color: #fff0dc;
+    background-color: #ebe8a2;
 }
 
 .bg-red {
-    background-color: #ffe5e5;
+    background-color: #ff9494;
 }
 
 .bg-green {
-    background-color: #e5ffe7;
+    background-color: #6bb45f;
 }
 
 .photo {
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.55);
     width: 170px;
     border-radius: 28px;
+}
+
+a {
+    color: rgb(37, 178, 244);
+    text-decoration: none;
+    transition: all .5s;
+}
+
+a:hover {
+    color: orange;
+    font-size: 1.05rem;
+}
+
+a:active {
+    color: blue;
+}
+
+a:visited {
+    color: rgb(47, 178, 239);
+}
+
+.btn {
+    background: rgb(38, 97, 233);
+    padding: 15px 15px;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all .4s;
+    font-family: inherit;
+}
+
+
+
+.btn:hover {
+    opacity: 0.8;
+    font-size: 1rem;
 }

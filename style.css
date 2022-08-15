@@ -1,3 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+h1 {
+    color: darkslategrey;
+}
+
 h2 {
     color: cornflowerblue;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+}
+
+p {
+    font-size: 16px;
+}
+
+ul {
+    font-size: 18px;
 }
